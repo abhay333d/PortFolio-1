@@ -2,6 +2,7 @@ import {
   ContactShadows,
   Environment,
   Float,
+  Html,
   PresentationControls,
   useGLTF,
 } from "@react-three/drei";
@@ -25,7 +26,17 @@ export default function Experience() {
         snap={{ mass: 4, tenssion: 400 }}
       >
         <Float>
-          <primitive object={computer.scene} position-y={-1.2} />
+          <primitive object={computer.scene} position-y={-1.2}>
+            <Html
+              transform
+              wrapperClass="htmlScreen"
+              distanceFactor={1.17}
+              position={[0, 1.58, -1.4]}
+              rotation-x={-0.256}
+            >
+              <iframe src="https://rahul.weldode.com/" />
+            </Html>
+          </primitive>
         </Float>
       </PresentationControls>
 
