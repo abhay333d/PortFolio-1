@@ -13,7 +13,7 @@ export default function Experience() {
   );
   return (
     <>
-      <color args={["#1a1a24"]} attach={"background"} />
+      <color args={["#16202C"]} attach={"background"} />
 
       <Environment preset="city" />
 
@@ -26,6 +26,14 @@ export default function Experience() {
         snap={{ mass: 4, tenssion: 400 }}
       >
         <Float>
+          <rectAreaLight
+            width={2.5}
+            height={1.65}
+            intensity={100}
+            color={"#283545"}
+            rotation={[0.1, Math.PI, 0]}
+            position={[0, 0.55, -1.15]}
+          />
           <primitive object={computer.scene} position-y={-1.2}>
             <Html
               transform
