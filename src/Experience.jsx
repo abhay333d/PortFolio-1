@@ -5,6 +5,7 @@ import {
   Html,
   PresentationControls,
   useGLTF,
+  Text,
 } from "@react-three/drei";
 
 export default function Experience() {
@@ -45,6 +46,16 @@ export default function Experience() {
               <iframe src="https://rahul.weldode.com/" />
             </Html>
           </primitive>
+          <Text
+            font="bangers-v20-latin-regular.woff"
+            fontSize={1}
+            position={[2, 0.75, 0.75]}
+            rotation-y={-1.25}
+            maxWidth={2}
+            textAlign="center"
+          >
+            Rahul Weldode
+          </Text>
         </Float>
       </PresentationControls>
 
