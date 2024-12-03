@@ -54,7 +54,7 @@ export default function Experience() {
             maxWidth={2}
             textAlign="center"
           >
-            Rahul Weldode
+            Dr. Rahul Weldode
           </Text>
         </Float>
       </PresentationControls>
