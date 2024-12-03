@@ -48,7 +48,7 @@ export default function Experience() {
           </primitive>
           <Text
             font="bangers-v20-latin-regular.woff"
-            fontSize={1}
+            fontSize={0.8}
             position={[2, 0.75, 0.75]}
             rotation-y={-1.25}
             maxWidth={2}
